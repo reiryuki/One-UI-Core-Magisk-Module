@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Feature for Samsung Accessory Manager-->
+<permissions>
+    <feature name="com.sec.feature.nfc_authentication" />
+</permissions>
