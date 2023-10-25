@@ -19,6 +19,8 @@
 - https://dumps.tadiphone.dev/dumps/samsung/beyond1q beyond1qltesq-user-11-RP1A.200720.012-G973USQU6GUH4-release-keys
 - https://dumps.tadiphone.dev/dumps/samsung/p3s p3sxxx-user-12-SP1A.210812.003-G998BXXU3ZUID-release-keys
 - https://dumps.tadiphone.dev/dumps/samsung/t2s t2sxxx-user-12-SP1A.210812.016-G996BXXS3BUL1-release-keys
+- https://dumps.tadiphone.dev/dumps/samsung/z3s z3sxxx-user-13-TP1A.220624.014-G988BXXUHHWF1-release-keys
+- /system/etc/permissions/: https://dumps.tadiphone.dev/dumps/samsung/z3s z3sxxx-user-13-TP1A.220624.014-G988BXXUHHWF1-release-keys
 - floating_feature.xml: https://github.com/ItsLynix/samsung_a53x_dump a53xnaxx-user-13-TP1A.220624.014-A536BXXU4BVJG-release-keys
 
 ## Requirements
