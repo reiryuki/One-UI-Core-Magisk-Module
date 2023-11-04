@@ -17,7 +17,6 @@
 
 ## Sources
 - https://dumps.tadiphone.dev/dumps/samsung/beyond1q beyond1qltesq-user-11-RP1A.200720.012-G973USQU6GUH4-release-keys
-- https://dumps.tadiphone.dev/dumps/samsung/p3s p3sxxx-user-12-SP1A.210812.003-G998BXXU3ZUID-release-keys
 - https://dumps.tadiphone.dev/dumps/samsung/t2s t2sxxx-user-12-SP1A.210812.016-G996BXXS3BUL1-release-keys
 - https://dumps.tadiphone.dev/dumps/samsung/z3s z3sxxx-user-13-TP1A.220624.014-G988BXXUHHWF1-release-keys
 - /system/etc/permissions/: https://dumps.tadiphone.dev/dumps/samsung/z3s z3sxxx-user-13-TP1A.220624.014-G988BXXUHHWF1-release-keys
@@ -39,9 +38,9 @@
 - Android 13 AOSP ROM & CrDroid ROM
 
 ## Optionals & Troubleshootings
-- https://t.me/androidryukimodsdiscussions/60861
-- https://t.me/androidryukimodsdiscussions/29836
 - https://t.me/androidryukimodsdiscussions/46153
+- Global: https://t.me/androidryukimodsdiscussions/60861
+- Global: https://t.me/androidryukimodsdiscussions/29836
 
 ## Support & Bug Report
 - https://t.me/androidryukimodsdiscussions/2618
