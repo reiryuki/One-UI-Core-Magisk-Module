@@ -47,14 +47,11 @@
 - https://t.me/androidryukimodsdiscussions/2618
 - If you don't do above, issues will be closed immediately
 
-## Credits and contributors
+## Credits and Contributors
 - https://t.me/androidryukimodsdiscussions
 - You can contribute ideas about this Magisk Module here: https://t.me/androidappsportdevelopment
 
-## Thanks for Donations
-This Magisk Module is always will be free but you can however show us that you are care by making a donations:
-- https://ko-fi.com/reiryuki
-- https://www.paypal.me/reiryuki
+## Sponsors
 - https://t.me/androidryukimodsdiscussions/2619
 
 
