@@ -8,7 +8,7 @@
 - System core framework library of One UI ROM ported from Samsung Galaxy S10 (beyond1q) as a dependency of any One UI/Samsung Magisk Module
 
 ## For Samsung App Porter
-- You can declare this line bellow in your app AndroidManifest.xml after `<application />` if you want to load classes from this One UI Core:
+- You need to declare this line bellow in your app AndroidManifest.xml after `<application />` to use this One UI Core:
 
   `<uses-library android:name="oneui" android:required="false" />`
 
