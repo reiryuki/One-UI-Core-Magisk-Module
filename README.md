@@ -33,8 +33,8 @@
 
 ## Optionals & Troubleshootings
 - https://t.me/androidryukimodsdiscussions/46153
-- Global: https://t.me/androidryukimodsdiscussions/60861
-- Global: https://t.me/androidryukimodsdiscussions/29836
+- Global: https://t.me/ryukinotes/35
+- Global: https://t.me/ryukinotes/34
 
 ## Support & Bug Report
 - https://t.me/androidryukimodsdiscussions/2618
