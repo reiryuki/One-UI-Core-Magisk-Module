@@ -32,12 +32,12 @@
 - Reboot
 
 ## Optionals & Troubleshootings
-- https://t.me/androidryukimodsdiscussions/46153
+- https://t.me/ryukinotes/33
 - Global: https://t.me/ryukinotes/35
 - Global: https://t.me/ryukinotes/34
 
 ## Support & Bug Report
-- https://t.me/androidryukimodsdiscussions/2618
+- https://t.me/ryukinotes/54
 - If you don't do above, issues will be closed immediately
 
 ## Credits and Contributors
