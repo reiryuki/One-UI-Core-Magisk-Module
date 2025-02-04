@@ -31,9 +31,12 @@
 - Install any One UI/Samsung Magisk Module which depends on this module
 - Reboot
 
-## Optionals & Troubleshootings
+## Optionals
 - https://t.me/ryukinotes/33
 - Global: https://t.me/ryukinotes/35
+
+## Troubleshootings
+- https://t.me/ryukinotes/33
 - Global: https://t.me/ryukinotes/34
 
 ## Support & Bug Report
