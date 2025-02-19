@@ -17,5 +17,8 @@
     <feature name="com.samsung.android.api.version.3101"/>
     <feature name="com.samsung.android.api.version.3201"/>
     <feature name="com.samsung.android.api.version.3301"/>
+    <feature name="com.samsung.android.api.version.3302"/>
     <feature name="com.samsung.android.api.version.3401"/>
+    <feature name="com.samsung.android.api.version.3402"/>
+    <feature name="com.samsung.android.api.version.3501"/>
 </permissions>
