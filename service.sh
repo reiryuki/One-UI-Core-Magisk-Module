@@ -26,8 +26,10 @@ if [ ! "`getprop $PROP`" ]; then
     resetprop -n $PROP 130500
   elif [ "$API" == 33 ]; then
     resetprop -n $PROP 140100
-  elif [ "$API" -ge 34 ]; then
+  elif [ "$API" == 34 ]; then
     resetprop -n $PROP 150000
+  elif [ "$API" -ge 35 ]; then
+    resetprop -n $PROP 160000
   fi
 fi
 PROP=ro.build.version.sem
@@ -48,8 +50,10 @@ if [ ! "`getprop $PROP`" ]; then
     resetprop -n $PROP 3201
   elif [ "$API" == 33 ]; then
     resetprop -n $PROP 3301
-  elif [ "$API" -ge 34 ]; then
+  elif [ "$API" == 34 ]; then
     resetprop -n $PROP 3401
+  elif [ "$API" -ge 35 ]; then
+    resetprop -n $PROP 3501
   fi
 fi
 PROP=ro.product_ship
