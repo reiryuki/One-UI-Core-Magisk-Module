@@ -22,7 +22,7 @@
 - https://dumps.tadiphone.dev/dumps/samsung/pa2q pa2qsqw-user-15-AP3A.240905.015.A2-S936USQU1AYA1-release-keys
 - https://dumps.tadiphone.dev/dumps/google/husky husky-user-15-AP3A.241001.005-12231455-release-keys
 - /system/etc/permissions/: https://dumps.tadiphone.dev/dumps/samsung/z3s z3sxxx-user-13-TP1A.220624.014-G988BXXUHHWF1-release-keys
-- floating_feature.xml: https://github.com/ItsLynix/samsung_a53x_dump a53xnaxx-user-13-TP1A.220624.014-A536BXXU4BVJG-release-keys
+- floating_feature.xml: https://dumps.tadiphone.dev/dumps/samsung/pa2q pa2qsqw-user-15-AP3A.240905.015.A2-S936USQU1AYA1-release-keys
 
 ## Requirements
 - NOT in One UI nor Touchwiz ROM

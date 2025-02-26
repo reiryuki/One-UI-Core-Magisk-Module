@@ -70,7 +70,7 @@ ui_print " "
 if [ "`grep_prop oneui.features $OPTIONALS`" == 0 ]; then
   ui_print "- Does not use One UI features"
   rm -f $MODPATH/system/etc/permissions/com.*\
-   $MODPATH/system/vendor/etc/floating_feature.xml
+   `find $MODPATH/system -type f -name floating_feature.xml`
   ui_print " "
 fi
 
