@@ -66,13 +66,31 @@ ui_print "- Cleaning..."
 remove_sepolicy_rule
 ui_print " "
 
+# function
+patch_floating_feature() {
+NAME2=\<$NAME\>TRUE
+NAME3=\<$NAME\>FALSE
+sed -i "s|$NAME2|$NAME3|g" $FILE
+}
+
 # features
+FILE=`find $MODPATH/system -type f -name floating_feature.xml`
 if [ "`grep_prop oneui.features $OPTIONALS`" == 0 ]; then
   ui_print "- Does not use One UI features"
-  rm -f $MODPATH/system/etc/permissions/com.*\
-   `find $MODPATH/system -type f -name floating_feature.xml`
+  rm -f $MODPATH/system/etc/permissions/com.* $FILE
+  ui_print " "
+elif [ "`grep_prop oneui.dark_background $OPTIONALS`" == 1 ]; then
+  ui_print "- Using dark background"
+  NAME=SEC_FLOATING_FEATURE_GRAPHICS_SUPPORT_3D_SURFACE_TRANSITION_FLAG
+  patch_floating_feature
+  NAME=SEC_FLOATING_FEATURE_GRAPHICS_SUPPORT_CAPTURED_BLUR
+  patch_floating_feature
+  NAME=SEC_FLOATING_FEATURE_GRAPHICS_SUPPORT_PARTIAL_BLUR
+  patch_floating_feature
   ui_print " "
 fi
+
+
 
 
 
