@@ -90,6 +90,14 @@ elif [ "`grep_prop oneui.dark_background $OPTIONALS`" == 1 ]; then
   ui_print " "
 fi
 
+# display device type
+FILE=$MODPATH/service.sh
+DDT=`grep_prop oneui.ddt $OPTIONALS`
+if [ "$DDT" ]; then
+  ui_print "- Sets display device type to $DDT"
+  sed -i "s|#resetprop -n ro.samsung.display.device.type 0|resetprop -n ro.samsung.display.device.type $DDT|g" $FILE
+  ui_print " "
+fi
 
 
 

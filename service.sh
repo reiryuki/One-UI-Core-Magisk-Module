@@ -60,6 +60,8 @@ PROP=ro.product_ship
 if [ ! "`getprop $PROP`" ]; then
   resetprop -n $PROP true
 fi
+#resetprop -n ro.samsung.display.device.type 0
+
 
 
 
