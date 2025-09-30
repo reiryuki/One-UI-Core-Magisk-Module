@@ -52,15 +52,6 @@ else
 fi
 ui_print " "
 
-
-# sepolicy
-FILE=$MODPATH/sepolicy.rule
-DES=$MODPATH/sepolicy.pfsd
-if [ "`grep_prop sepolicy.sh $OPTIONALS`" == 1 ]\
-&& [ -f $FILE ]; then
-  mv -f $FILE $DES
-fi
-
 # cleaning
 ui_print "- Cleaning..."
 remove_sepolicy_rule
