@@ -1,7 +1,7 @@
 id=OneUICore
 name=One UI Core
-version=v2.0
-versionCode=20
+version=v2.1
+versionCode=21
 author=Rei Ryuki the Fixer
 description=System core framework library of One UI ROM ported from Samsung Galaxy S10 (beyond1q) as a dependency of any One UI/Samsung Magisk Modules for non-One UI/non-Touchwiz ROM.
 
