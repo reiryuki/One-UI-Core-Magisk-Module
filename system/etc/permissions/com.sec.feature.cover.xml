@@ -14,7 +14,6 @@
      limitations under the License.
 -->
 
-<!-- This is the standard feature indicating that the device includes WiFi. -->
 <permissions>
     <feature name="com.sec.feature.cover" />
 </permissions>
