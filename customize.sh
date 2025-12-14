@@ -58,9 +58,14 @@ remove_sepolicy_rule
 ui_print " "
 
 # function
-patch_floating_feature() {
+floating_feature_false() {
 NAME2=\<$NAME\>TRUE
 NAME3=\<$NAME\>FALSE
+sed -i "s|$NAME2|$NAME3|g" $FILE
+}
+floating_feature_true() {
+NAME2=\<$NAME\>FALSE
+NAME3=\<$NAME\>TRUE
 sed -i "s|$NAME2|$NAME3|g" $FILE
 }
 
@@ -73,21 +78,28 @@ if [ "`grep_prop oneui.features $OPTIONALS`" == 0 ]; then
 elif [ "`grep_prop oneui.dark_background $OPTIONALS`" == 1 ]; then
   ui_print "- Using dark background"
   NAME=SEC_FLOATING_FEATURE_GRAPHICS_SUPPORT_3D_SURFACE_TRANSITION_FLAG
-  patch_floating_feature
+  floating_feature_false
   NAME=SEC_FLOATING_FEATURE_GRAPHICS_SUPPORT_CAPTURED_BLUR
-  patch_floating_feature
+  floating_feature_false
   NAME=SEC_FLOATING_FEATURE_GRAPHICS_SUPPORT_PARTIAL_BLUR
-  patch_floating_feature
+  floating_feature_false
   ui_print " "
 fi
-
-# display device type
-FILE=$MODPATH/service.sh
-DDT=`grep_prop oneui.ddt $OPTIONALS`
-if [ "$DDT" ]; then
-  ui_print "- Sets display device type to $DDT"
-  sed -i "s|#resetprop -n ro.samsung.display.device.type 0|resetprop -n ro.samsung.display.device.type $DDT|g" $FILE
+if [ "`grep_prop oneui.foldable $OPTIONALS`" == 1 ]; then
+  ui_print "- Activating foldable support"
+  NAME=SEC_FLOATING_FEATURE_FRAMEWORK_SUPPORT_FOLDABLE_TYPE_FOLD
+  floating_feature_true
+  NAME=SEC_FLOATING_FEATURE_FRAMEWORK_SUPPORT_FOLDABLE_TYPE_FLIP
+  floating_feature_true
+  NAME=SEC_FLOATING_FEATURE_FRAMEWORK_SUPPORT_HALF_FOLDED_MODE
+  floating_feature_true
   ui_print " "
+  if [ "`grep_prop oneui.foldable $OPTIONALS`" == 2 ]; then
+    ui_print "- Activating multi fold support"
+    NAME=SEC_FLOATING_FEATURE_FRAMEWORK_SUPPORT_MULTI_FOLD
+    floating_feature_true
+    ui_print " "
+  fi
 fi
 
 
