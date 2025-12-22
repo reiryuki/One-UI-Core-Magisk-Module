@@ -1,0 +1,2 @@
+sh "/storage/emulated/0/Android/data/vegabobo.dsusideloader/files/install"
+adb shell sh "/storage/emulated/0/Android/data/vegabobo.dsusideloader/files/install"
