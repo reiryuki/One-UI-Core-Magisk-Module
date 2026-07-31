@@ -68,9 +68,12 @@ v1.6
 
 ## Installation Guide & Download Link
 - If you are using KernelSU, you need to disable Unmount Modules by Default in KernelSU app settings and install https://github.com/KernelSU-Modules-Repo/meta-overlayfs or https://github.com/KernelSU-Modules-Repo/magic_mount_rs or https://github.com/KernelSU-Modules-Repo/hybrid_mount first depending on ROM compatibility
-- Install this module https://devuploads.com/nsd8gryzay5c via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
+- Install this module https://bicolink.com/X0D7NVb via Magisk app or Kitsune Mask app or KernelSU app or Apatch app or Recovery if Magisk or Kitsune Mask installed
 - Install any One UI/Samsung Magisk Module which depends on this module
 - Reboot
+
+## Download Tutorial
+https://t.me/ryukinotes/97
 
 ## Optionals
 - https://t.me/ryukinotes/33
